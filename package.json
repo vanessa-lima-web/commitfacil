@@ -1,0 +1,29 @@
+{
+  "name": "commitfacil",
+  "version": "1.0.0",
+  "description": "CLI interativa em PT-BR pra criar Conventional Commits sem complicação",
+  "type": "module",
+  "bin": {
+    "commitfacil": "bin/commitfacil.js"
+  },
+  "scripts": {
+    "start": "node bin/commitfacil.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "conventional-commits",
+    "cli",
+    "portugues"
+  ],
+  "author": "Vanessa Rafaella",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src"
+  ]
+}
